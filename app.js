@@ -29,6 +29,6 @@ io.on('connection', (socket) => {
 });
 
 
-server.listen(peocess.env.PORT || 3001);
+server.listen(process.env.PORT || 3001);
 
 
